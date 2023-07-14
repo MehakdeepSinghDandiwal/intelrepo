@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/simulation/modelsim
+vSevenSegmentDisplay
+Z1 !s110 1689336853
+!i10b 1
+!s100 RCTQO9P2b@iG<mXL3fgQo1
+IEoi<Ni8he7<AmT0THomiH0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1689336672
+Z4 8C:/intelFPGA_lite/18.1/verilogbasics.v
+Z5 FC:/intelFPGA_lite/18.1/verilogbasics.v
+L0 72
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1689336853.000000
+Z8 !s107 C:/intelFPGA_lite/18.1/verilogbasics.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1|C:/intelFPGA_lite/18.1/verilogbasics.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1
+Z12 tCvgOpt 0
+n@seven@segment@display
+vtb
+R1
+!i10b 1
+!s100 o>zXh?hgdJ<@AG:e7cjU]1
+IU4cf2bD?<k8oac1on;BZ72
+R2
+R0
+w1689331204
+8C:/intelFPGA_lite/18.1/tb.v
+FC:/intelFPGA_lite/18.1/tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/18.1/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1|C:/intelFPGA_lite/18.1/tb.v|
+!i113 1
+R10
+R11
+R12
+vverilogbasics
+R1
+!i10b 1
+!s100 ia8[cBEFO7d<EeJKB=G<K1
+Ib^bc4N86B5;oYfhNVL5V^0
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

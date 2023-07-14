@@ -1,0 +1,33 @@
+module tb;
+  reg   x,clk,reset;
+  wire [2:0] z;
+  wire [6:0] seg;
+  
+  verilogbasics sd( .clk(clk),.reset(reset) , .x(x), .z(z), .seg(seg));
+  
+  initial
+  begin
+  clk=0;
+  reset=0;
+  end
+
+  
+ always #50 clk=~clk;
+  
+    
+  initial begin
+    $monitor("%t: x = %b , z = %b ,clk = %b,reset=%b   seg=%b" , $time, x, z,clk,reset,seg);
+		            x = 1 ;
+    #100          x = 1 ;
+	 #100          x = 1 ;
+	 #100 reset=1; x = 0 ;
+    #100 reset=0; x = 1 ;	
+	 #100 x = 0 ;  #100
+	 $finish;
+	
+  end
+  
+ 
+	
+ 
+endmodule

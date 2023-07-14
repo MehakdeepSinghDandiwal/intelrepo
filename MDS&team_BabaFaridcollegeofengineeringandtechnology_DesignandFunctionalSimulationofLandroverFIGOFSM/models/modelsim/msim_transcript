@@ -1,0 +1,64 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do verilogbasics_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1 {C:/intelFPGA_lite/18.1/verilogbasics.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:44:13 on Jul 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1" C:/intelFPGA_lite/18.1/verilogbasics.v 
+# -- Compiling module verilogbasics
+# -- Compiling module SevenSegmentDisplay
+# 
+# Top level modules:
+# 	verilogbasics
+# End time: 17:44:13 on Jul 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1 {C:/intelFPGA_lite/18.1/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:44:13 on Jul 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1" C:/intelFPGA_lite/18.1/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:44:13 on Jul 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 17:44:13 on Jul 14,2023
+# Loading work.tb
+# Loading work.verilogbasics
+# Loading work.SevenSegmentDisplay
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0: x = 1 , z = 000 ,clk = 0,reset=0   seg=1000000
+#                   50: x = 1 , z = 001 ,clk = 1,reset=0   seg=1111001
+#                  100: x = 1 , z = 001 ,clk = 0,reset=0   seg=1111001
+#                  150: x = 1 , z = 100 ,clk = 1,reset=0   seg=0011001
+#                  200: x = 1 , z = 100 ,clk = 0,reset=0   seg=0011001
+#                  250: x = 1 , z = 101 ,clk = 1,reset=0   seg=0010010
+#                  300: x = 0 , z = 000 ,clk = 0,reset=1   seg=1000000
+#                  350: x = 0 , z = 000 ,clk = 1,reset=1   seg=1000000
+#                  400: x = 1 , z = 000 ,clk = 0,reset=0   seg=1000000
+#                  450: x = 1 , z = 001 ,clk = 1,reset=0   seg=1111001
+#                  500: x = 0 , z = 001 ,clk = 0,reset=0   seg=1111001
+#                  550: x = 0 , z = 010 ,clk = 1,reset=0   seg=0100100
+# ** Note: $finish    : C:/intelFPGA_lite/18.1/tb.v(26)
+#    Time: 600 ps  Iteration: 0  Instance: /tb
+# End time: 17:44:23 on Jul 14,2023, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
